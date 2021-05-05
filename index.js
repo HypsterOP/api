@@ -24,7 +24,7 @@ app.get('/mock/:query', (req, res) => {
 });
 
 app.use((req, res) => {
-	res.status(404).send('this is invalid');
+	res.status(404).send('404 Not FOUND');
 });
 
 app.listen(3000, () => console.log('http://localhost:3000'));
